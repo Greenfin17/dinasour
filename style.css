@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: aquamarine;
+  background-color: rgb(150, 219, 198);
 }
 
 h1 {
@@ -8,7 +8,6 @@ h1 {
 }
 
 main {
-  height: 400px;
 }
 ul {
   display: flex;
@@ -17,4 +16,27 @@ ul {
 li {
   list-style-type: none;
   padding: 20px;
+}
+.card {
+  background-color: #6666ee;
+   margin: auto;
+   width: 50%;
+}
+.card img{
+  display: block;
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+.card p {
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+footer {
+  margin-top: 20px;
+}
+p {
+  text-align: right;
+  margin: 10px 20px 10px auto;
 }
